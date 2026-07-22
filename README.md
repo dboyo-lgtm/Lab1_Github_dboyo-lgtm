@@ -23,23 +23,6 @@ How to run the program
 After cloning my githhub repository using git clone.
 On your local terminal type python3 grade-evaluator.p. Your output will display an academic report.
 
-SAMPLE OUTPUT
-Assignment                           Category  Grade (%)  Weight  Final weight
-------------------------------------------------------------------------------
-Quiz                                       FA         85      20            17
-Group Exercise                             FA         40      20             8
-Functions and Debugging Lab                FA         45      20             9
-Midterm Project - Simple Calculator        SA         70      20            14
-Final Project - Text-Based Game            SA         60      20            12
-------------------------------------------------------------------------------
-Formatives (60)             34
-Summatives (40)             26
-Total Grade                 60/100
-GPA                         3/5
-Status                      PASSED
-Available for resubmission  Group Exercise, Functions and Debugging Lab
-
-
 The program has the following functions when it runs:
 ● Grade Validation: Check that the score for every assignment respects the assignment
 grade range (between 0 and 100).
