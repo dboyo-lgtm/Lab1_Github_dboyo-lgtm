@@ -24,24 +24,29 @@ After cloning my githhub repository using git clone.
 On your local terminal type python3 grade-evaluator.p. Your output will display an academic report.
 
 The program has the following functions when it runs:
-● Grade Validation: Check that the score for every assignment respects the assignment
+
+1) Grade Validation: Check that the score for every assignment respects the assignment
 grade range (between 0 and 100).
-● Weight Validation: Verify that the sum of all assignment weights equals exactly 100.
+
+2) Weight Validation: Verify that the sum of all assignment weights equals exactly 100.
 Ensure all "Summative" assignments add up to exactly 40, and all "Formative"
 assignments add up to exactly 60.
-● GPA Calculation: Calculate the final GPA based on the weighted scores. Use the formula:
+
+3) GPA Calculation: Calculate the final GPA based on the weighted scores. Use the formula:
 GPA = (Total Grade / 100) * 5.0.
-● Final Decision (Pass/Fail): A student passes only if they score at or above 50% in both
-categories. Print the final status of the student (PASSED or FAILED).
-● Resubmission Logic: Resubmission is for failed formative assignment that carries the
-highest weight. If multiple failed formative assignments share the same highest weight,
+
+4) Final Decision (Pass/Fail): A student passes only if they score at or above 50% in both
+categories. And finally  prints the final status of the student (PASSED or FAILED).
+
+5)Resubmission Logic: Resubmission is for failed formative assignment that carries the
+highest weight. If multiple failed formative assignments share the same highest weight (score below 50)
 the program must display all of them as eligible for resubmission.
 
 Next step is the run the organizer.sh script.
 first type chmod +x organizer.sh to get permission to be able to run the file.
 Then type ./organizer.sh or bash organizer.sh to run the script. 
 
-1) This script has the followiing function when it runs:
+This script has the followiing function when it runs:
 2) Create an archive/ directory if one does not already exist.
 3) Generate a timestamp in YYYYMMDD-HHMMSS form.
 4) Move grades.csv into archive/ renamed as grades_<timestamp>.csv.
