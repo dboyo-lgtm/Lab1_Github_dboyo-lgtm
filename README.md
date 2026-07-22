@@ -38,7 +38,7 @@ GPA = (Total Grade / 100) * 5.0.
 4) Final Decision (Pass/Fail): A student passes only if they score at or above 50% in both
 categories. And finally  prints the final status of the student (PASSED or FAILED).
 
-5)Resubmission Logic: Resubmission is for failed formative assignment that carries the
+5) Resubmission Logic: Resubmission is for failed formative assignment that carries the
 highest weight. If multiple failed formative assignments share the same highest weight (score below 50)
 the program must display all of them as eligible for resubmission.
 
@@ -47,11 +47,16 @@ first type chmod +x organizer.sh to get permission to be able to run the file.
 Then type ./organizer.sh or bash organizer.sh to run the script. 
 
 This script has the followiing function when it runs:
-2) Create an archive/ directory if one does not already exist.
-3) Generate a timestamp in YYYYMMDD-HHMMSS form.
-4) Move grades.csv into archive/ renamed as grades_<timestamp>.csv.
-5) Create a fresh, empty grades.csv in the working directory.
-6) Append a line to organizer.log recording the timestamp, the original filename, and the archived filename.
+
+1) Create an archive/ directory if one does not already exist.
+
+2) Generate a timestamp in YYYYMMDD-HHMMSS form.
+
+3) Move grades.csv into archive/ renamed as grades_<timestamp>.csv.
+
+4) Create a fresh, empty grades.csv in the working directory.
+
+5) Append a line to organizer.log recording the timestamp, the original filename, and the archived filename.
 
 The final flow is to execute is:
 - Clone the github repository using the link provided by typing git clone the link.git
